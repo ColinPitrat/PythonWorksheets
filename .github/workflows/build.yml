@@ -29,6 +29,13 @@ jobs:
           for file in *.fodt; do libreoffice --convert-to pdf $file; done
           zip python-sheets-fr.zip *.pdf
           popd
+      - name: Check PDF files
+        run: |
+          if file */*.pdf | grep -v "1 page"
+          then
+            echo "Some PDFs have more than 1 page!"
+            exit 1
+          fi
       - name: Publish zips
         uses: softprops/action-gh-release@v2
         with:
