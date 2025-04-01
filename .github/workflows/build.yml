@@ -41,7 +41,6 @@ jobs:
         with:
           name: latest
           tag_name: latest
-          message: Latest version of sheets / Dernière version des fiches
           body: Latest version of the sheets / Dernière version des fiches
           files: |
             en/python-sheets-en.zip
