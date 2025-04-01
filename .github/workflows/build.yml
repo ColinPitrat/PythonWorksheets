@@ -2,6 +2,10 @@ name: Build
 
 on: [push]
 
+permissions:
+  # To allow creating releases and attaching artifacts to it.
+  contents: write
+
 jobs:
   linux-build:
     name: Build
