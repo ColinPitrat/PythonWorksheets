@@ -1,0 +1,10 @@
+ - Worksheet 1:
+experimenting with basic maths: 
+   - try very big numbers
+   - try dividing by 0
+   - try 10/3
+   - try 3-5
+ - Worksheet 2:
+ - Worksheet 3:
+   - try pressing Ctrl-C
+   - try answering Yes, or YES
