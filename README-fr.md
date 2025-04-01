@@ -4,3 +4,5 @@
 [![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/ColinPitrat/README-fr.md)
 
 Des fiches pour apprendre aux enfants à programmer en Python.
+
+Les fiches au format PDF peuvent être téléchargées [ici](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-fr.zip).
