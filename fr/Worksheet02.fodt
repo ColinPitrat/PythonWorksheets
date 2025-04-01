@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2025-01-28T17:44:27.479533752</meta:creation-date><dc:date>2025-04-01T17:31:02.177692192</dc:date><meta:editing-duration>PT29M2S</meta:editing-duration><meta:editing-cycles>5</meta:editing-cycles><meta:generator>LibreOffice/24.8.4.2$Linux_X86_64 LibreOffice_project/480$Build-2</meta:generator><meta:print-date>2025-01-29T18:02:22.231660903</meta:print-date><meta:printed-by>PDF files</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="5" meta:object-count="0" meta:page-count="1" meta:paragraph-count="37" meta:word-count="331" meta:character-count="2076" meta:non-whitespace-character-count="1726"/></office:meta>
+ <office:meta><meta:creation-date>2025-01-28T17:44:27.479533752</meta:creation-date><dc:date>2025-04-01T21:37:04.023326443</dc:date><meta:editing-duration>PT43M39S</meta:editing-duration><meta:editing-cycles>6</meta:editing-cycles><meta:generator>LibreOffice/24.8.4.2$Linux_X86_64 LibreOffice_project/480$Build-2</meta:generator><meta:print-date>2025-01-29T18:02:22.231660903</meta:print-date><meta:printed-by>PDF files</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="5" meta:object-count="0" meta:page-count="1" meta:paragraph-count="37" meta:word-count="333" meta:character-count="2078" meta:non-whitespace-character-count="1726"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">5196</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">44524</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">25499</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">13799</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">26060</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">5126</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">25404</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">5196</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">44522</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">30693</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">25497</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -141,7 +141,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2778393</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2905694</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -166,7 +166,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="fr" fo:country="FR" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -366,36 +366,40 @@
   </style:style>
   <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="002543d4" officeooo:paragraph-rsid="002543d4" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="002a6519" officeooo:paragraph-rsid="002543d4" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="002543d4" officeooo:paragraph-rsid="002543d4" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:background-color="#dddddd" fo:padding="0.049cm" fo:border="0.06pt solid #000000" style:shadow="#808080 0.176cm 0.176cm"/>
    <style:text-properties style:font-name="DejaVu Sans Mono" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="0024edaf" officeooo:paragraph-rsid="002543d4" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:language="fr" fo:country="FR" officeooo:rsid="001ecd4b" officeooo:paragraph-rsid="001ecd4b"/>
   </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="0026a7a7" officeooo:paragraph-rsid="0026a7a7" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="001ecd4b" officeooo:paragraph-rsid="001ecd4b" style:font-size-asian="7pt" style:font-size-complex="8pt"/>
-  </style:style>
-  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
-   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:background-color="#dddddd" fo:padding="0.049cm" fo:border="0.06pt solid #000000" style:shadow="#808080 0.176cm 0.176cm"/>
-   <style:text-properties style:font-name="DejaVu Sans Mono" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="002543d4" officeooo:paragraph-rsid="0026a7a7" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:background-color="#dddddd" fo:padding="0.049cm" fo:border="0.06pt solid #000000" style:shadow="#808080 0.176cm 0.176cm"/>
-   <style:text-properties style:font-name="DejaVu Sans Mono" fo:font-size="8pt" fo:language="fr" fo:country="FR" fo:font-weight="normal" officeooo:rsid="0026a7a7" officeooo:paragraph-rsid="0026a7a7" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="DejaVu Sans Mono" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="002543d4" officeooo:paragraph-rsid="0026a7a7" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:background-color="#dddddd" fo:padding="0.049cm" fo:border="0.06pt solid #000000" style:shadow="#808080 0.176cm 0.176cm"/>
+   <style:text-properties style:font-name="DejaVu Sans Mono" fo:font-size="8pt" fo:language="fr" fo:country="FR" fo:font-weight="normal" officeooo:rsid="0026a7a7" officeooo:paragraph-rsid="0026a7a7" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:font-name="DejaVu Sans" fo:font-size="8pt" fo:language="fr" fo:country="FR" officeooo:rsid="001ecd4b" officeooo:paragraph-rsid="0020b432" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
   </style:style>
@@ -1665,22 +1669,22 @@
    <text:p text:style-name="P12"><text:span text:style-name="T10"/></text:p>
    <text:p text:style-name="P16">pythonista(“Guido”)</text:p>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P17"><text:span text:style-name="T5">Les fonctions sont très utiles. Voyons un autre exemple. Celle-ci prend plusieurs paramètres et retourne un résultat.</text:span></text:p>
-   <text:p text:style-name="P17"/>
-   <text:p text:style-name="P18"><text:span text:style-name="T8">def </text:span><text:span text:style-name="T10">mix(a, b, c):</text:span></text:p>
+   <text:p text:style-name="P17">Les fonctions sont très utiles. Voyons un autre exemple. Celle-ci prend plusieurs paramètres et retourne un résultat.</text:p>
+   <text:p text:style-name="P18"/>
+   <text:p text:style-name="P19"><text:span text:style-name="T8">def </text:span><text:span text:style-name="T10">mix(a, b, c):</text:span></text:p>
    <text:p text:style-name="P16"><text:s text:c="4"/>return a*b + b*c + c*a</text:p>
-   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
    <text:p text:style-name="P16">mix(1, 2, 3)</text:p>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P19"><text:span text:style-name="T11">2. </text:span><text:span text:style-name="T5">Clauses if</text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T11">2. </text:span><text:span text:style-name="T5">Clauses if</text:span></text:p>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P17"><text:span text:style-name="T5">Parfois</text:span>, <text:span text:style-name="T5">le code doit faire des choses différentes en fonction d’une condition. Une manière d’obtenir cela est avec une clause </text:span><text:span text:style-name="T6">if</text:span><text:span text:style-name="T5"> (si en anglais). Pour faciliter l’expérimentation, utilisons en une dans une fonction</text:span>:</text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T5">Parfois</text:span>, <text:span text:style-name="T5">le code doit faire des choses différentes en fonction d’une condition. Une manière d’obtenir cela est avec une clause </text:span><text:span text:style-name="T6">if</text:span><text:span text:style-name="T5"> (si en anglais). Pour faciliter l’expérimentation, utilisons en une dans une fonction</text:span>:</text:p>
    <text:p text:style-name="P10"/>
    <text:p text:style-name="P16">def <text:span text:style-name="T5">salut</text:span>(<text:span text:style-name="T5">nom</text:span>, age):</text:p>
    <text:p text:style-name="P16"><text:s text:c="4"/>print(“<text:span text:style-name="T5">Salut</text:span> %s” % <text:span text:style-name="T5">nom</text:span>)</text:p>
    <text:p text:style-name="P16"><text:s text:c="4"/>if age &gt; 18:</text:p>
    <text:p text:style-name="P16"><text:s text:c="8"/>print(“<text:span text:style-name="T5">Je vois que tu es un(e)</text:span> adult<text:span text:style-name="T5">e</text:span>”)</text:p>
-   <text:p text:style-name="P18"><text:span text:style-name="T10"/></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T10"/></text:p>
    <text:p text:style-name="P16">greet(“Marie”, 21)</text:p>
    <text:p text:style-name="P16">greet(“Hugo”, 9)</text:p>
    <text:p text:style-name="P10"/>
@@ -1746,17 +1750,17 @@
        t4984Ewct+fVx38A24BtRjlSORUAAAAASUVORK5CYII=
       </office:binary-data>
      </draw:image>
-    </draw:frame><text:span text:style-name="T6">Trouve le</text:span><text:span text:style-name="T12"> bug:</text:span><text:span text:style-name="T13"><text:line-break/></text:span><text:span text:style-name="T5">Tu viens juste d’écrire ton premier bug</text:span><text:span text:style-name="T14">! </text:span><text:span text:style-name="T5">Un</text:span><text:span text:style-name="T14"> bug </text:span><text:span text:style-name="T5">(insecte ou petite bête en anglais)</text:span><text:span text:style-name="T14"> </text:span><text:span text:style-name="T5">est une erreur dans un programme. Peux-tu la trouver ?</text:span></text:p>
+    </draw:frame><text:span text:style-name="T6">Trouve le</text:span><text:span text:style-name="T12"> bug :</text:span><text:span text:style-name="T13"><text:line-break/></text:span><text:span text:style-name="T5">Tu viens juste d’écrire ton premier bug</text:span><text:span text:style-name="T14">! </text:span><text:span text:style-name="T5">Un</text:span><text:span text:style-name="T14"> bug </text:span><text:span text:style-name="T5">(insecte ou petite bête en anglais)</text:span><text:span text:style-name="T14"> </text:span><text:span text:style-name="T5">est une erreur dans un programme. Peux-tu la trouver ?</text:span></text:p>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P20">T<text:span text:style-name="T5">u peux aussi avoir un </text:span><text:span text:style-name="T6">else</text:span><text:span text:style-name="T5"> (sinon en anglais) après un </text:span><text:span text:style-name="T6">if</text:span>:</text:p>
-   <text:p text:style-name="P21"/>
-   <text:p text:style-name="P22"><text:span text:style-name="T8">def </text:span><text:span text:style-name="T9">dit</text:span><text:span text:style-name="T15">_secret</text:span><text:span text:style-name="T8">(</text:span><text:span text:style-name="T9">mot_de_passe</text:span><text:span text:style-name="T8">):</text:span></text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T8"><text:s text:c="4"/>if </text:span><text:span text:style-name="T9">mot_de_passe</text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T15">==</text:span><text:span text:style-name="T8"> “</text:span><text:span text:style-name="T15">abc123”</text:span><text:span text:style-name="T8">:</text:span></text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T8"><text:s text:c="8"/>print(“</text:span><text:span text:style-name="T9">Le secret est que Python est super !</text:span><text:span text:style-name="T8">”)</text:span></text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T8"><text:s text:c="4"/></text:span><text:span text:style-name="T15">else:</text:span></text:p>
-   <text:p text:style-name="P23"><text:s text:c="8"/>print(“<text:span text:style-name="T5">Désolé</text:span>, <text:span text:style-name="T5">je ne peux pas te dire le secret.</text:span>”)</text:p>
-   <text:p text:style-name="P24"/>
-   <text:p text:style-name="P20"><draw:frame draw:style-name="fr3" draw:name="Image5" text:anchor-type="paragraph" svg:x="-0.728cm" svg:y="0.071cm" svg:width="0.661cm" svg:height="0.661cm" draw:z-index="3"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P21">T<text:span text:style-name="T5">u peux aussi avoir un </text:span><text:span text:style-name="T6">else</text:span><text:span text:style-name="T5"> (sinon en anglais) après un </text:span><text:span text:style-name="T6">if</text:span>:</text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P23"><text:span text:style-name="T8">def </text:span><text:span text:style-name="T9">dit</text:span><text:span text:style-name="T15">_secret</text:span><text:span text:style-name="T8">(</text:span><text:span text:style-name="T9">mot_de_passe</text:span><text:span text:style-name="T8">):</text:span></text:p>
+   <text:p text:style-name="P23"><text:span text:style-name="T8"><text:s text:c="4"/>if </text:span><text:span text:style-name="T9">mot_de_passe</text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T15">==</text:span><text:span text:style-name="T8"> “</text:span><text:span text:style-name="T15">abc123”</text:span><text:span text:style-name="T8">:</text:span></text:p>
+   <text:p text:style-name="P23"><text:span text:style-name="T8"><text:s text:c="8"/>print(“</text:span><text:span text:style-name="T9">Le secret est que Python est super !</text:span><text:span text:style-name="T8">”)</text:span></text:p>
+   <text:p text:style-name="P23"><text:span text:style-name="T8"><text:s text:c="4"/></text:span><text:span text:style-name="T15">else:</text:span></text:p>
+   <text:p text:style-name="P24"><text:s text:c="8"/>print(“<text:span text:style-name="T5">Désolé</text:span>, <text:span text:style-name="T5">je ne peux pas te dire le secret.</text:span>”)</text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P21"><draw:frame draw:style-name="fr3" draw:name="Image5" text:anchor-type="paragraph" svg:x="-0.728cm" svg:y="0.071cm" svg:width="0.661cm" svg:height="0.661cm" draw:z-index="3"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlw
        SFlzAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoA
        AAZjSURBVFiFvZZ7cJTVGcaf7/7tfrvZzeaym82FzSJkIQkQ6UCNCVM0regoKJPQ2rSjLRZH
@@ -1792,7 +1796,7 @@
        BCuZpgmCOWsC02Rhs3yRrPs/R0vKtc4AT6cAAAAASUVORK5CYII=
       </office:binary-data>
      </draw:image>
-    </draw:frame><text:span text:style-name="T6">Expérimente</text:span><text:span text:style-name="T16">:<text:line-break/></text:span><text:span text:style-name="T5">Tu peux aussi utiliser</text:span> <text:span text:style-name="T7">elif</text:span> <text:span text:style-name="T5">(contraction de else et if, pour sinon si) si tu veux faire quelque chose quand la condition du if n’est pas remplie mais qu’une autre condition l’est. Arrives-tu à t’en servir ?</text:span></text:p>
+    </draw:frame><text:span text:style-name="T6">Expérimente </text:span><text:span text:style-name="T16">:<text:line-break/></text:span><text:span text:style-name="T5">Tu peux aussi utiliser</text:span> <text:span text:style-name="T7">elif</text:span> <text:span text:style-name="T5">(contraction de else et if, pour sinon si) si tu veux faire quelque chose quand la condition du if n’est pas remplie mais qu’une autre condition l’est. Arrives-tu à t’en servir ?</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
