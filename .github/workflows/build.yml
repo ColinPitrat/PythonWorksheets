@@ -36,6 +36,10 @@ jobs:
             echo "Some PDFs have more than 1 page!"
             exit 1
           fi
+      # Ensure tag is updated, so that the date shown on the release is recent.
+      - uses: richardsimko/update-tag@v1
+        with:
+          tag_name: latest
       - name: Publish zips
         uses: softprops/action-gh-release@v2
         with:
