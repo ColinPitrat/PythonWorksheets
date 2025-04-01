@@ -1,0 +1,42 @@
+name: Build
+
+on: [push]
+
+jobs:
+  linux-build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Update and install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install libreoffice zip
+      - name: Convert english sheets
+        run: |
+          pushd en
+          for file in *.fodt; do libreoffice --convert-to pdf $file; done
+          zip python-sheets-en.zip *.pdf
+          popd
+      - name: Convert french sheets
+        run: |
+          pushd fr
+          for file in *.fodt; do libreoffice --convert-to pdf $file; done
+          zip python-sheets-fr.zip *.pdf
+          popd
+      - name: Publish zips
+        uses: softprops/action-gh-release@v2
+        with:
+          name: latest
+          tag_name: latest
+          message: Latest version of sheets / Dernière version des fiches
+          body: Latest version of the sheets / Dernière version des fiches
+          files: |
+            en/python-sheets-en.zip
+            fr/python-sheets-fr.zip
+          fail_on_unmatched_files: true
+          draft: false
+          prerelease: false
+          make_latest: true
+          token: ${{ secrets.GITHUB_TOKEN }}
