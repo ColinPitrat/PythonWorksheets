@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2025-01-28T17:44:27.479533752</meta:creation-date><dc:date>2025-02-10T18:01:04.157774540</dc:date><meta:editing-duration>PT32M41S</meta:editing-duration><meta:editing-cycles>8</meta:editing-cycles><meta:generator>LibreOffice/24.8.4.2$Linux_X86_64 LibreOffice_project/480$Build-2</meta:generator><meta:print-date>2025-01-31T15:03:35.749707095</meta:print-date><meta:printed-by>PDF files</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="5" meta:object-count="0" meta:page-count="1" meta:paragraph-count="37" meta:word-count="478" meta:character-count="2583" meta:non-whitespace-character-count="2092"/></office:meta>
+ <office:meta><meta:creation-date>2025-01-28T17:44:27.479533752</meta:creation-date><dc:date>2025-04-04T12:16:38.345420729</dc:date><meta:editing-duration>PT32M46S</meta:editing-duration><meta:editing-cycles>9</meta:editing-cycles><meta:generator>LibreOffice/24.8.4.2$Linux_X86_64 LibreOffice_project/480$Build-2</meta:generator><meta:print-date>2025-01-31T15:03:35.749707095</meta:print-date><meta:printed-by>PDF files</meta:printed-by><meta:document-statistic meta:table-count="0" meta:image-count="5" meta:object-count="0" meta:page-count="1" meta:paragraph-count="37" meta:word-count="478" meta:character-count="2584" meta:non-whitespace-character-count="2093"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
@@ -13,8 +13,8 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8883</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">7144</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">15265</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">44522</config:config-item>
@@ -141,7 +141,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3513540</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3574891</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -166,7 +166,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -406,27 +406,30 @@
    <style:text-properties fo:font-weight="normal" officeooo:rsid="00331cde" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0031499d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00368c6b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties officeooo:rsid="0032ddd2"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0031499d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0032ddd2" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0032ddd2"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0020b432" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0032ddd2" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0032ddd2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0020b432" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="00331cde" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0032ddd2" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties officeooo:rsid="0020b432"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00331cde" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
+   <style:text-properties officeooo:rsid="0020b432"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
    <style:text-properties officeooo:rsid="00331cde"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
@@ -946,10 +949,10 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T5">Pay attention:</text:span></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T6">H</text:span><text:span text:style-name="T7">ere are a few things to not in this code:</text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">- Note the first line: </text:span><text:span text:style-name="T8">import random</text:span><text:span text:style-name="T3">. The keyword </text:span><text:span text:style-name="T8">import</text:span><text:span text:style-name="T3"> tells to python that we want to use a library. The library </text:span><text:span text:style-name="T8">random</text:span><text:span text:style-name="T3"> is part of python’s standard library and provides functions to generate and use random numbers.</text:span></text:p>
-   <text:p text:style-name="P15">- <text:span text:style-name="T3">We define some variables </text:span><text:span text:style-name="T8">MIN</text:span><text:span text:style-name="T3"> and </text:span><text:span text:style-name="T8">MAX</text:span><text:span text:style-name="T3">. That’s because these numbers are used in two places in the program, and although they are fixed for now, we may want to be able to easily change them in the future.</text:span></text:p>
-   <text:p text:style-name="P15">- <text:span text:style-name="T9">Note the infinite loop (</text:span><text:span text:style-name="T10">while True</text:span><text:span text:style-name="T9">) with the </text:span><text:span text:style-name="T10">break</text:span><text:span text:style-name="T9"> when the player finds the right number</text:span></text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="T6">H</text:span><text:span text:style-name="T7">ere are a few things to not</text:span><text:span text:style-name="T8">e</text:span><text:span text:style-name="T7"> in this code:</text:span></text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T3">- Note the first line: </text:span><text:span text:style-name="T9">import random</text:span><text:span text:style-name="T3">. The keyword </text:span><text:span text:style-name="T9">import</text:span><text:span text:style-name="T3"> tells to python that we want to use a library. The library </text:span><text:span text:style-name="T9">random</text:span><text:span text:style-name="T3"> is part of python’s standard library and provides functions to generate and use random numbers.</text:span></text:p>
+   <text:p text:style-name="P15">- <text:span text:style-name="T3">We define some variables </text:span><text:span text:style-name="T9">MIN</text:span><text:span text:style-name="T3"> and </text:span><text:span text:style-name="T9">MAX</text:span><text:span text:style-name="T3">. That’s because these numbers are used in two places in the program, and although they are fixed for now, we may want to be able to easily change them in the future.</text:span></text:p>
+   <text:p text:style-name="P15">- <text:span text:style-name="T10">Note the infinite loop (</text:span><text:span text:style-name="T11">while True</text:span><text:span text:style-name="T10">) with the </text:span><text:span text:style-name="T11">break</text:span><text:span text:style-name="T10"> when the player finds the right number</text:span></text:p>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P17"><draw:frame draw:style-name="fr2" draw:name="Image3" text:anchor-type="char" svg:x="-0.73cm" svg:y="0.189cm" svg:width="0.704cm" svg:height="0.704cm" draw:z-index="4"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlw
@@ -1006,10 +1009,10 @@
        MfwPKmzJ9lTGyWwAAAAASUVORK5CYII=
       </office:binary-data>
      </draw:image>
-    </draw:frame><text:span text:style-name="T10">Practice to progress</text:span><text:span text:style-name="T11">:<text:line-break/></text:span><text:span text:style-name="T12">You can play a bit with the game, but it lacks some things:</text:span></text:p>
+    </draw:frame><text:span text:style-name="T11">Practice to progress</text:span><text:span text:style-name="T12">:<text:line-break/></text:span><text:span text:style-name="T13">You can play a bit with the game, but it lacks some things:</text:span></text:p>
    <text:p text:style-name="P18">- can you make it count your guesses and tell you how many it took you to find the number?</text:p>
-   <text:p text:style-name="P17"><text:span text:style-name="T12">- can you make it start a new game as soon as you find the number? </text:span><text:span text:style-name="T10">Tip</text:span><text:span text:style-name="T12">: to make it easier to think about your code, you may want to create a function for a round of the game</text:span></text:p>
-   <text:p text:style-name="P17"><text:span text:style-name="T12">- </text:span><text:span text:style-name="T7">can you make it measure the time it takes you to find the number? </text:span><text:span text:style-name="T13">Tip</text:span><text:span text:style-name="T7">: you can </text:span><text:span text:style-name="T13">import time</text:span><text:span text:style-name="T7"> and use </text:span><text:span text:style-name="T13">time.time()</text:span><text:span text:style-name="T7"> twice: once at the start and once at the end. The difference between these 2 values will be the number of seconds. It will be a decimal number, you can use </text:span><text:span text:style-name="T13">int(end-start)</text:span><text:span text:style-name="T7"> to make it a whole number or use </text:span><text:span text:style-name="T13">round(end-start, 2)</text:span><text:span text:style-name="T7"> to only keep 2 decimals so that it’s more readable.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T13">- can you make it start a new game as soon as you find the number? </text:span><text:span text:style-name="T11">Tip</text:span><text:span text:style-name="T13">: to make it easier to think about your code, you may want to create a function for a round of the game</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T13">- </text:span><text:span text:style-name="T7">can you make it measure the time it takes you to find the number? </text:span><text:span text:style-name="T14">Tip</text:span><text:span text:style-name="T7">: you can </text:span><text:span text:style-name="T14">import time</text:span><text:span text:style-name="T7"> and use </text:span><text:span text:style-name="T14">time.time()</text:span><text:span text:style-name="T7"> twice: once at the start and once at the end. The difference between these 2 values will be the number of seconds. It will be a decimal number, you can use </text:span><text:span text:style-name="T14">int(end-start)</text:span><text:span text:style-name="T7"> to make it a whole number or use </text:span><text:span text:style-name="T14">round(end-start, 2)</text:span><text:span text:style-name="T7"> to only keep 2 decimals so that it’s more readable.</text:span></text:p>
    <text:p text:style-name="P19">- can you make the game have multiple levels with different difficulties?</text:p>
    <text:p text:style-name="P20"/>
    <text:p text:style-name="P21"><draw:frame draw:style-name="fr3" draw:name="Image5" text:anchor-type="paragraph" svg:x="-0.718cm" svg:y="0.053cm" svg:width="0.661cm" svg:height="0.661cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
@@ -1048,7 +1051,7 @@
        BCuZpgmCOWsC02Rhs3yRrPs/R0vKtc4AT6cAAAAASUVORK5CYII=
       </office:binary-data>
      </draw:image>
-    </draw:frame><text:span text:style-name="T4">Have fun </text:span><text:span text:style-name="T11">experimenting:</text:span><text:span text:style-name="T14"><text:line-break/></text:span><text:span text:style-name="T9">This game can be really fun. </text:span><text:span text:style-name="T15">Play with it a lot. What strategy allows you to win with the smallest number of guesses?</text:span></text:p>
+    </draw:frame><text:span text:style-name="T4">Have fun </text:span><text:span text:style-name="T12">experimenting:</text:span><text:span text:style-name="T15"><text:line-break/></text:span><text:span text:style-name="T10">This game can be really fun. </text:span><text:span text:style-name="T16">Play with it a lot. What strategy allows you to win with the smallest number of guesses?</text:span></text:p>
    <text:p text:style-name="P22">You think it’s just a game? It actually hides something very useful in computer science called <text:span text:style-name="T4">bisection</text:span>.</text:p>
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P22">As you play, do you find ideas on how to make this game better? That’s the great thing about programming: you can always come up with new ideas to make your program better.</text:p>
