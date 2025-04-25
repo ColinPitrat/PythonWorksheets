@@ -16,7 +16,7 @@ jobs:
       - name: Update and install packages
         run: |
           sudo apt-get update
-          sudo apt-get install libreoffice zip
+          sudo apt-get install libreoffice poppler-utils zip
       - name: Convert english sheets
         run: |
           pushd en
@@ -36,13 +36,21 @@ jobs:
             echo "Some PDFs have more than 1 page!"
             exit 1
           fi
+      - name: Merged versions
+        run: |
+          for lang in fr en
+          do
+            pushd $d
+            pdfunite *.pdf python-sheets-${lang}.pdf
+            popd
+          done
       # Ensure tag is updated, so that the date shown on the release is recent.
       - uses: richardsimko/update-tag@v1
         with:
           tag_name: latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish zips
+      - name: Publish zips and pdfs
         uses: softprops/action-gh-release@v2
         with:
           name: latest
@@ -51,6 +59,8 @@ jobs:
           files: |
             en/python-sheets-en.zip
             fr/python-sheets-fr.zip
+            en/python-sheets-en.pdf
+            fr/python-sheets-fr.pdf
           fail_on_unmatched_files: true
           draft: false
           prerelease: false

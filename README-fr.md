@@ -8,4 +8,6 @@
 
 Des fiches pour apprendre aux enfants à programmer en Python.
 
-Les fiches au format PDF peuvent être téléchargées [ici](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-fr.zip).
+Les fiches au format PDF peuvent être téléchargées:
+ - [un fichier par fiche (zip)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-fr.zip).
+ - [toutes les fiches en un seul fichier (pdf)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-fr.pdf).
