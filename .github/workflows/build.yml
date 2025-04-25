@@ -40,7 +40,7 @@ jobs:
         run: |
           for lang in fr en
           do
-            pushd $d
+            pushd $lang
             pdfunite *.pdf python-sheets-${lang}.pdf
             popd
           done
