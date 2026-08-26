@@ -8,7 +8,7 @@
 
 Des fiches pour apprendre aux enfants à programmer en Python.
 
-J'ai aussi des [fiches sur Linux](https://github.com/ColinPitrat/LinuxWorksheets)
+J'ai aussi des [fiches sur Linux](https://github.com/ColinPitrat/LinuxWorksheets/blob/main/README-fr.md)
 
 Les fiches au format PDF peuvent être téléchargées:
  - [un fichier par fiche (zip)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-fr.zip)
