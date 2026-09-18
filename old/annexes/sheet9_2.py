@@ -4,7 +4,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 running = True
-ball = pygame.image.load('ball.png')
+ball = pygame.image.load('../resources/ball.png')
 x, y = 0, 0
 vx, vy = 0, 0
 

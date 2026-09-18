@@ -1,0 +1,21 @@
+warning: Currently logging to gdbtrace.log.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fb30c13d6c0 (LWP 4168196)]
+[New Thread 0x7fb30b93c6c0 (LWP 4168197)]
+[New Thread 0x7fb30a7ff6c0 (LWP 4168198)]
+[Thread 0x7fb30a7ff6c0 (LWP 4168198) exited]
+[New Thread 0x7fb30a7ff6c0 (LWP 4168199)]
+[Thread 0x7fb30a7ff6c0 (LWP 4168199) exited]
+[Detaching after vfork from child process 4168200]
+[New Thread 0x7fb30a7ff6c0 (LWP 4168202)]
+[Thread 0x7fb30c13d6c0 (LWP 4168196) exited]
+[Thread 0x7fb30b93c6c0 (LWP 4168197) exited]
+[Thread 0x7fb30d03c200 (LWP 4168189) exited]
+[Thread 0x7fb30a7ff6c0 (LWP 4168202) exited]
+[New process 4168189]
+[Inferior 1 (process 4168189) exited normally]
+/usr/lib/libreoffice/program/gdbtrace:9: Error in sourced command file:
+No stack.
+No stack.
+quit

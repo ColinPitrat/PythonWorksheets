@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   linux-build:
-    name: Build
+    name: Build old worksheets (libreoffice)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,31 +19,33 @@ jobs:
           sudo apt-get install libreoffice poppler-utils zip
       - name: Convert english sheets
         run: |
-          pushd en
+          pushd old/en
           for file in *.fodt; do libreoffice --convert-to pdf $file; done
-          zip python-sheets-en.zip *.pdf
+          zip python-sheets-old-en.zip *.pdf
           popd
       - name: Convert french sheets
         run: |
-          pushd fr
+          pushd old/fr
           for file in *.fodt; do libreoffice --convert-to pdf $file; done
-          zip python-sheets-fr.zip *.pdf
+          zip python-sheets-old-fr.zip *.pdf
           popd
       - name: Check PDF files
         run: |
-          if file */*.pdf | grep -v "1 page"
+          if file old/*/*.pdf | grep -v "1 page"
           then
             echo "Some PDFs have more than 1 page!"
             exit 1
           fi
       - name: Merged versions
         run: |
+          pushd old
           for lang in fr en
           do
             pushd $lang
             pdfunite *.pdf python-sheets-${lang}.pdf
             popd
           done
+          popd
       # Ensure tag is updated, so that the date shown on the release is recent.
       - uses: richardsimko/update-tag@v3
         with:
@@ -57,10 +59,10 @@ jobs:
           tag_name: latest
           body: Latest version of the sheets / Dernière version des fiches
           files: |
-            en/python-sheets-en.zip
-            fr/python-sheets-fr.zip
-            en/python-sheets-en.pdf
-            fr/python-sheets-fr.pdf
+            old/en/python-sheets-en.zip
+            old/fr/python-sheets-fr.zip
+            old/en/python-sheets-en.pdf
+            old/fr/python-sheets-fr.pdf
           fail_on_unmatched_files: true
           draft: false
           prerelease: false
