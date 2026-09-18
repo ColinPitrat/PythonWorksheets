@@ -67,7 +67,7 @@ Puis:
 “Salut, %s” % nom
 ```
 
-= Pratique
+= Mise en pratique
 
 Mettons ce que tu as appris en pratique.
 
@@ -95,3 +95,7 @@ Ensuite presse `Alt + P` suivi de la touche `Entrée`. Répête celà autant que
 #experiment[
 Les nombres grandissent vite, n'est-ce pas? Peux tu trouver un moyen de les faire grandir encore plus vite? Peux-tu arriver à un point où "quelque chose casse"? Lit le message attentivement. Peux tu trouver un moyen d'aller encore plus loin?
 ]
+
+== Manipulation de chaînes de caractère
+
+En utilisant `input`, demander le prénom et le nom de l'utilisateur. En suite, utiliser ces information pour faire les présentations à la manière de James Bond: `Mon nom est Bond. James Bond.`

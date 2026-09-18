@@ -94,3 +94,7 @@ Then press `Alt + P` followed by `Enter`. Repeat that as many times as you want.
 #experiment[
 It's growing fast isn't it? Can you find a way to make the numbers grow even faster? Can you get to the point where "something breaks"? When this happens, read carefully the error. Can you find a way to go even further?
 ]
+
+== Playing with strings
+
+Using input, ask for someone's first name, then their surname. Then introduce themselves like James Bond: `The name is Bond. James Bond.`
