@@ -9,12 +9,9 @@
 
 = The objective of this serie
 
-Have you ever played sudoku?
-
-In this serie, we want to create a game of sudoku in python. Instead of using numbers, we'll use colored beads.
-
-This is what the game will look like:
-#align(center)[#image("../../resources/screenshots/sudoku.png", height: 20em)]
+Have you ever played sudoku? In this serie, we want to create a game of sudoku in python. Instead of using numbers, we'll use colored beads.
+This will look like this:
+#align(center)[#image("../../resources/screenshots/sudoku.png", height: 18em)]
 
 The first thing we'll do, in this sheet, is write the code to create the board.
 
