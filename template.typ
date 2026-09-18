@@ -1,6 +1,7 @@
 #let cs_sheet(
   title: "",
   lang: "en",
+  serie_icon: none,
   doc,
 ) = {
   set document(title: title, author: "Colin Pitrat")
@@ -51,14 +52,23 @@
     text(font: ("Fira Code", "DejaVu Sans Mono", "Liberation Mono"), size: 9.5pt, it)
   )
 
+  // Links
+  show link: set text(fill: blue)
+
   // Title
   block([
     #grid(
-      columns: (auto, 1fr),
-      align: (left, horizon),
+      columns: (auto, 1fr, auto),
+      align: (left + horizon, horizon, right + horizon),
       column-gutter: 1.5em,
-      image("resources/tux.png", height: 2cm),
-      text(24pt, weight: "bold", title)
+      image("resources/icons/python.svg", height: 2cm),
+      text(24pt, weight: "bold", title),
+      // Optional logo for the sheets serie
+      if serie_icon != none {
+        image(serie_icon, height: 2cm)
+      } else {
+        []
+      }
     )
     #v(-0.5em)
     #line(length: 100%, stroke: 1.5pt + black)
