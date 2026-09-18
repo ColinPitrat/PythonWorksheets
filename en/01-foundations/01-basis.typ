@@ -1,4 +1,4 @@
-#import "../../template.typ": *
+#import "../template.typ": *
 
 #show: doc => cs_sheet(
   title: "1. Basic Maths - Variables - Input",

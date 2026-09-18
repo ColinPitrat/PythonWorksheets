@@ -13,7 +13,8 @@ dirs:
 	@mkdir -p $(foreach lang,$(LANGS),build/$(lang))
 
 # Compile sheets. Rebuilds if template.typ changes.
-build/%.pdf: %.typ template.typ
+# TODO: Find a smart way to make only the english (resp. french) sheet depends on the english (resp. french) template.
+build/%.pdf: %.typ */template.typ template.typ
 	mkdir -p `dirname $@`
 	typst compile --root . $< $@
 
