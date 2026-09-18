@@ -12,3 +12,11 @@ See also [my Linux worksheets](https://github.com/ColinPitrat/LinuxWorksheets)
 You can download all the sheets as PDF:
  - [one file per sheet (zip)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-en.zip)
  - [all sheets in one file (pdf)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-en.pdf)
+
+----
+
+The previous version of these sheets were using LibreOffice and were not split per project.
+
+You can download all the old sheets as PDF:
+ - [one file per sheet (zip)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-old-en.zip)
+ - [all sheets in one file (pdf)](https://github.com/ColinPitrat/PythonWorksheets/releases/download/latest/python-sheets-old-en.pdf)

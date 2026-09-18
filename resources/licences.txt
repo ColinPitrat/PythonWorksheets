@@ -1,0 +1,9 @@
+`cc-by.png`: https://creativecommons.org/mission/downloads/
+`tux.png`: https://commons.wikimedia.org/wiki/File:Linux_mascot_tux.png
+`icons/attention.png`: https://www.flaticon.com/free-icon/magnifying-glass_2015046
+`icons/bug.png`: https://www.flaticon.com/free-icon/bug_8297137
+`icons/experiment.png`: https://www.flaticon.com/free-icon/experiment_4445193
+`icons/practice.png`: https://www.flaticon.com/free-icon/exercise_1683155
+`icons/pro.png`: https://wwwflaticon.com/free-icon/good-feedback_9733233
+`icons/python.svg`: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+`icons/setup.png`: https://www.flaticon.com/free-icon/service_3166130

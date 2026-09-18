@@ -1,4 +1,4 @@
-name: Build
+name: Build old worksheets (libreoffice)
 
 on: [push]
 
@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   linux-build:
-    name: Build
+    name: Build old worksheets (libreoffice)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,32 +16,36 @@ jobs:
       - name: Update and install packages
         run: |
           sudo apt-get update
-          sudo apt-get install fonts-firacode fonts-linuxlibertine poppler-utils zip
-          sudo snap install typst
-      - name: Convert sheets
+          sudo apt-get install libreoffice poppler-utils zip
+      - name: Convert english sheets
         run: |
-          make
-          for lang in fr en
-          do
-            pushd build/${lang}/ 
-            zip python-sheets-${lang}.zip */*.pdf
-            popd
-          done
+          pushd old/en
+          for file in *.fodt; do libreoffice --convert-to pdf $file; done
+          zip python-sheets-old-en.zip *.pdf
+          popd
+      - name: Convert french sheets
+        run: |
+          pushd old/fr
+          for file in *.fodt; do libreoffice --convert-to pdf $file; done
+          zip python-sheets-old-fr.zip *.pdf
+          popd
       - name: Check PDF files
         run: |
-          if file build/*/*.pdf | grep -v " [12] page"
+          if file old/*/*.pdf | grep -v "1 page"
           then
-            echo "Some PDFs have more than 2 pages!"
+            echo "Some PDFs have more than 1 page!"
             exit 1
           fi
       - name: Merged versions
         run: |
+          pushd old
           for lang in fr en
           do
-            pushd build/$lang
-            pdfunite */*.pdf python-sheets-${lang}.pdf
+            pushd $lang
+            pdfunite *.pdf python-sheets-old-${lang}.pdf
             popd
           done
+          popd
       # Ensure tag is updated, so that the date shown on the release is recent.
       - uses: richardsimko/update-tag@v3
         with:
@@ -55,10 +59,10 @@ jobs:
           tag_name: latest
           body: Latest version of the sheets / Dernière version des fiches
           files: |
-            build/en/python-sheets-en.zip
-            build/fr/python-sheets-fr.zip
-            build/en/python-sheets-en.pdf
-            build/fr/python-sheets-fr.pdf
+            old/en/python-sheets-old-en.zip
+            old/fr/python-sheets-old-fr.zip
+            old/en/python-sheets-old-en.pdf
+            old/fr/python-sheets-old-fr.pdf
           fail_on_unmatched_files: true
           draft: false
           prerelease: false
