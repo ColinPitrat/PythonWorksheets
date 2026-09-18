@@ -29,7 +29,7 @@ jobs:
           done
       - name: Check PDF files
         run: |
-          if file build/*/*.pdf | grep -v " [12] page"
+          if file build/*/*/*.pdf | grep -v " [12] page"
           then
             echo "Some PDFs have more than 2 pages!"
             exit 1
