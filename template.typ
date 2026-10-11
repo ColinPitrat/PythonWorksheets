@@ -83,7 +83,7 @@
   fill: color.lighten(95%),
   stroke: (left: 4pt + color),
   radius: (right: 4pt, left: 0pt),
-  inset: (x: 12pt, y: 10pt),
+  inset: (x: 10pt, y: 8pt),
   spacing: 1.5em,
   grid(
     columns: (auto, 1fr),
