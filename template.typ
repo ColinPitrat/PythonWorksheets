@@ -36,11 +36,11 @@
   // Code block formatting (multiline)
   show raw.where(block: true): it => block(
     fill: rgb("#f4f5f6"),
-    inset: 12pt,
+    inset: 8pt,
     radius: 4pt,
     width: 100%,
     stroke: 1pt + rgb("#e0e3e7"),
-    text(font: ("Fira Code", "DejaVu Sans Mono", "Liberation Mono"), size: 9.5pt, it)
+    text(font: ("Fira Code", "DejaVu Sans Mono", "Liberation Mono"), size: 8pt, it)
   )
 
   // Inline code formatting
@@ -49,7 +49,7 @@
     inset: (x: 3pt, y: 0pt),
     outset: (y: 3pt),
     radius: 2pt,
-    text(font: ("Fira Code", "DejaVu Sans Mono", "Liberation Mono"), size: 9.5pt, it)
+    text(font: ("Fira Code", "DejaVu Sans Mono", "Liberation Mono"), size: 8pt, it)
   )
 
   // Links
@@ -97,11 +97,3 @@
     ]
   )
 )
-
-// Specific blocks with semantic colors
-#let experiment(body) = icon_section("experiment", "Have fun experimenting", body, color: rgb("#9b59b6"))
-#let find_bug(body) = icon_section("bug", "Find the bug", body, color: rgb("#e74c3c"))
-#let attention(body) = icon_section("attention", "Pay attention!", body, color: rgb("#e67e22"))
-#let setup_tip(body) = icon_section("setup", "Setup tip", body, color: rgb("#3498db"))
-#let practice(body) = icon_section("practice", "Practice to progress", body, color: rgb("#2ecc71"))
-#let pro_tip(body) = icon_section("pro", "Pro tip", body, color: rgb("#1abc9c"))
