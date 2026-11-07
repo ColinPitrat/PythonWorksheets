@@ -218,7 +218,7 @@ class Game(object):
 pygame.display.set_caption("Color sudoku")
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
-game = Game("grid.sud")
+game = Game("easy.sud")
 game.game_loop(screen)
 
 pygame.quit()

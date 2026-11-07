@@ -131,15 +131,18 @@ class SudokuGrid(object):
     for (i, row) in enumerate(self._board):
         row = [c for c in row if c is not None]
         if has_duplicates(row):
+            print(f"Row {i} has duplicates: {row}")
             return False
     for j in range(len(self._board)):
         column = [self._board[i][j] for i in range(len(self._board)) if self._board[i][j] is not None]
         if has_duplicates(column):
+            print(f"Column {j} has duplicates: {column}")
             return False
     for i in range(3):
         for j in range(3):
-            elems = [self._board[i+di][j+dj] for di in range(3) for dj in range(3) if self._board[i+di][j+dj] is not None]
-            if has_duplicates(column):
+            elems = [self._board[3*i+di][3*j+dj] for di in range(3) for dj in range(3) if self._board[3*i+di][3*j+dj] is not None]
+            if has_duplicates(elems):
+                print(f"Square {i},{j} has duplicates: {elems}")
                 return False
     return True
 
@@ -242,7 +245,7 @@ class Game(object):
 pygame.display.set_caption("Color sudoku")
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
-game = Game("grid.sud")
+game = Game("easy.sud")
 game.game_loop(screen)
 
 pygame.quit()
